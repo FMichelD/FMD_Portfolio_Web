@@ -1,0 +1,50 @@
+.article-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    max-width: clamp(250px, 90vw, 2000px);
+    margin: auto;
+    padding: 25px 5vw 0 5vw;
+    background-color: white;
+}
+
+article > .fig-panel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+article > h2 {
+    color: #003e3f;
+}
+
+article > h3 {
+    color: #007779;
+}
+
+
+article a:link {
+    text-decoration: none;
+    color: #003e3f;
+    font-weight: 600;
+}
+
+article a:visited {
+    color: #003e3f;
+}
+
+article a:hover {
+    font-weight: bold;
+}
+
+article > .subsubtitle {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 3%, rgba(0,72,70,1) 8%, rgba(0,62,63,1) 40%, rgba(0,214,173,1) 72%, rgba(255,255,255,1) 98%);
+    color: white;
+    padding: 1em 0 1em 4em;
+    margin-top: 3em;
+    font-size: 1.4em;
+}
